@@ -2,6 +2,7 @@
 @charset 'utf-8';
 
 /* 
+글꼴 설정 - font-family
 https://fonts.google.com
 1. 원하는 글꼴을 선택하여 + 버튼으로 장바구니에 담은 후...
 2. @import 탭의 내용을 복사하여 아래와 같이 적용한다.
@@ -68,7 +69,7 @@ body {height: 5000px;}
 	/* margin: 20px; => 상 하 좌 우 20px */
 	/* margin: 20px 60px; => 상하 20px, 좌우 60px */
 	/* margin: 20px 40px 60px 80px; => 상 20px, 우 40px, 하 60px, 좌 80px 12시 부터 시계방향으로 진행 */
-	margin: 20px auto;
+	margin: 30px auto;
 	font-size: 30px;
 	text-align: center;
 }
