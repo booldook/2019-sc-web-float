@@ -9,22 +9,32 @@ body {
 
 .wrap {
 	background-color: #462424;
-	padding: 20px;
-	width: 1200px;
+	width: 100%;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
 .box-lt {
+	width: 70%;
 	background-color: #87bbe6;
 	padding: 20px;
+	float: left;
+	height: 500px;
 }
 
 .box-rt {
+	width: 28%;
 	background-color: #3f6399;
 	padding: 20px;
+	float: right;
+	height: 500px;
 }
 
 .footer {
 	background-color: #c8db92;
 	padding: 20px;
+}
+
+.clear {
+	clear: both;
 }
