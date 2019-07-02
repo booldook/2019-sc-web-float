@@ -65,7 +65,10 @@ body {height: 5000px;}
 .box {
 	width: 300px;
 	padding: 20px;
-	margin: 20px;
+	/* margin: 20px; => 상 하 좌 우 20px */
+	/* margin: 20px 60px; => 상하 20px, 좌우 60px */
+	/* margin: 20px 40px 60px 80px; => 상 20px, 우 40px, 하 60px, 좌 80px 12시 부터 시계방향으로 진행 */
+	margin: 20px auto;
 	font-size: 30px;
 	text-align: center;
 }
