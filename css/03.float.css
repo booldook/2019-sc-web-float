@@ -8,11 +8,13 @@ body {
 }
 
 .wrap {
-	background-color: #462424;
+	background-color: #dfa7a7;
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+
 
 .box-lt {
 	width: 70%;
@@ -35,6 +37,15 @@ body {
 	padding: 20px;
 }
 
-.clear {
-	clear: both;
+.footer-lt {
+	float: left;
+	width: 50%;
+	padding: 100px;
+	border: 10px solid red;
+}
+.footer-rt {
+	float: right;
+	width: 50%;
+	padding: 100px;
+	border: 10px solid red;
 }

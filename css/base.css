@@ -14,3 +14,12 @@ html, body {
 	font-size: 16px;
 	color: #222;
 }
+
+
+/* 공통클래스 */
+
+.clear:after {
+	display: block;
+	content: '';
+	clear: both;
+}
