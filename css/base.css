@@ -13,8 +13,14 @@ html, body {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 16px;
 	color: #222;
+	line-height: 0.9;
 }
 
+img {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
 
 /* 공통클래스 */
 
