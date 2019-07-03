@@ -15,3 +15,7 @@ body {font-size: 14px; height: 5000px;}
 
 /* bands */
 .cont {text-align: justify; line-height: 1.8;}
+.member {margin-top: 50px;}
+.member > div {width: 33.3333%; float: left;}
+.member .tit {text-align: center; padding: 16px 0;}
+.member .photo {padding: 0 18%;}
