@@ -13,7 +13,6 @@ html, body {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size: 16px;
 	color: #222;
-	line-height: 0.9;
 }
 
 img {
@@ -28,4 +27,10 @@ img {
 	display: block;
 	content: '';
 	clear: both;
+}
+.img {
+	width: 100%;
+}
+.img-wrap {
+	line-height: 0.9;
 }
