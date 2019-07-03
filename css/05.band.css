@@ -1,0 +1,7 @@
+/* tops */
+.tops {background-color: #111; color: #f8f8f8;}
+.navi {float: left;}
+.search {float: right; padding: 12px 20px; cursor: pointer;}
+.search:hover {background-color: #f20;}
+.navi > div {float: left; padding: 12px 20px; cursor: pointer;}
+.navi > div:hover {background-color: #ddd; color: #111;}
