@@ -22,11 +22,10 @@ img {
 }
 
 /* 공통클래스 */
-
 .clear:after {
 	display: block;
 	content: '';
-	clear: both;
+	clear:both;
 }
 .img {
 	width: 100%;
