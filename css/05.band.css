@@ -23,3 +23,11 @@ body {font-size: 14px; height: 5000px;}
 /* tours */
 .tours {background-color: #000;}
 .tours .mn-tit {color: #f8f8f8;}
+.dates {color: #555; background-color: #f1f1f1; border: 1px solid red;}
+.dates > li {padding: 12px 16px;}
+/* 
+:first-child  => 첫번째 자식
+:last-child   => 마지막 자식
+:nth-child(n) => n번째 자식
+*/
+.dates > li:not(:last-child) {border-bottom: 1px solid red;}
