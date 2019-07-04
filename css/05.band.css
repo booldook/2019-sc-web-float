@@ -19,3 +19,7 @@ body {font-size: 14px; height: 5000px;}
 .member > div {width: 33.3333%; float: left;}
 .member .tit {text-align: center; padding: 16px 0;}
 .member .photo {padding: 0 18%;}
+
+/* tours */
+.tours {background-color: #000;}
+.tours .mn-tit {color: #f8f8f8;}
