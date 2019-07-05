@@ -53,3 +53,5 @@ div.city    => 모든 div들 중에 .city라는 클래스를 가지고 있는 di
 			.bt-buy {background-color: #111; color: #f8f8f8; 
 				padding: 8px 12px; float: left; cursor: pointer;}
 			.bt-buy:hover {background-color: #ccc; color: #000;}	
+
+/* Contact */
