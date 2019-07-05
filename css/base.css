@@ -88,3 +88,14 @@ img {
 	color: #f8f8f8;}
 .bt-red {background-color: #d11a1a; border: 1px solid #860707;
 	color:#f8f8f8;}
+.bt-ghost {background-color: transparent; border: 1px solid #333; 
+	color: #111;}
+.bt-ghost:hover {background-color: rgba(0,0,0,0.8); 
+	border: 1px solid #bbb; 
+	color: #f8f8f8;}
+.bt-ghost-dark {background-color: transparent; border: 1px solid #eee; 
+	color: #f8f8f8;}
+.bt-ghost-dark:hover {background-color: rgba(255,255,255,0.8); 
+	border: 1px solid #333; 
+	color: #111;}
+.bt-hover:hover {opacity: 0.8;}
