@@ -38,3 +38,20 @@ img {
 .img-wrap {
 	line-height: 0.9;
 }
+
+/* Form 요소 */
+.ins {
+	padding: 8px;
+	color: #444;
+	font-size: 16px;
+	border: 1px solid #ccc;
+}
+
+.ins-dark {
+	background-color: #222;
+	color: #f1f1f1;
+}
+
+.ins-rnd {
+	border-radius: 4px;
+}
