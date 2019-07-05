@@ -55,3 +55,8 @@ div.city    => 모든 div들 중에 .city라는 클래스를 가지고 있는 di
 			.bt-buy:hover {background-color: #ccc; color: #000;}	
 
 /* Contact */
+.contact-form {margin: 20px 0;}
+.contact-form > ul {width: 50%; float: left;}
+	.contact-info {font-size: 18px;}
+	.contact-info > li {padding: 4px 0;}
+	.contact-info > li > i {width: 30px;}
