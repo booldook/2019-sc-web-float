@@ -79,3 +79,12 @@ img {
 .ta-8 {width: 80%;}
 .ta-9 {width: 90%;}
 .ta-10 {width: 100%;}
+
+.bt {padding: 6px 16px; font-size: 16px; border: none; cursor: pointer;}
+.bt-rnd {border-radius: 4px;}
+.bt-orange {background-color: orangered; border: 1px solid #b63405; 
+	color: #f8f8f8;}
+.bt-green {background-color: seagreen; border: 1px solid #18492d; 
+	color: #f8f8f8;}
+.bt-red {background-color: #d11a1a; border: 1px solid #860707;
+	color:#f8f8f8;}
