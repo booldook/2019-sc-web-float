@@ -49,7 +49,7 @@ tag 의 속성의 값 => value
 					<label for="gender-m">남자</label>
 					<input type="radio" name="gender" id="gender-w">
 					<label for="gender-w">여자</label>
-					<input type="radio" name="gender" id="gender-a">
+					<input type="radio" name="gender" id="gender-a" checked>
 					<label for="gender-a">외계인</label>
 				</div>
 			</li>
@@ -57,7 +57,7 @@ tag 의 속성의 값 => value
 			<li class="clear">
 				<div class="tit">취미:</div>
 				<div class="cont">
-					<input type="checkbox" name="hobby" id="hobby1">
+					<input type="checkbox" name="hobby" id="hobby1" checked>
 					<label for="hobby1">영화감상</label>
 					<input type="checkbox" name="hobby" id="hobby2">
 					<label for="hobby2">음악감상</label>
@@ -70,14 +70,24 @@ tag 의 속성의 값 => value
 			<li class="clear">
 				<div class="tit">전화번호: </div>
 				<div class="cont">
-					<select name="tel1" id="tel1" class="ins ins-rnd">
-						<option value="010">010</option>
+					<select name="tel1" class="ins ins-rnd">
+						<option value="010" selected>010</option>
 						<option value="011">011</option>
 						<option value="016">016</option>
 						<option value="017">017</option>
 						<option value="018">018</option>
 						<option value="019">019</option>
 					</select>
+					- 
+					<input type="text" name="tel2" class="ins ins-rnd ins-6 tc">
+					- 
+					<input type="text" name="tel3" class="ins ins-rnd ins-6 tc">
+				</div>
+			</li>
+			<li class="clear">
+				<div class="tit">자기소개:</div>
+				<div class="cont">
+					<textarea name="ta-story" class="ta ta-rnd ta-8" rows="5"></textarea>
 				</div>
 			</li>
 		</ul>

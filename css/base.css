@@ -38,6 +38,10 @@ img {
 .img-wrap {
 	line-height: 0.9;
 }
+.tc {text-align: center;}
+.tl {text-align: left;}
+.tr {text-align: right;}
+
 
 /* Form 요소 */
 .ins {
@@ -55,3 +59,23 @@ img {
 .ins-rnd {
 	border-radius: 4px;
 }
+
+.ins-4 {width: 40px;}
+.ins-5 {width: 50px;}
+.ins-6 {width: 60px;}
+.ins-7 {width: 70px;}
+.ins-8 {width: 80px;}
+.ins-9 {width: 90px;}
+.ins-10 {width: 100px;}
+.ins-11 {width: 110px;}
+.ins-12 {width: 120px;}
+
+.ta {padding: 16px; font-size: 16px; color: #444; 
+	border: 1px solid #ccc;}
+.ta-rnd {border-radius: 4px;}
+.ta-5 {width: 50%;}
+.ta-6 {width: 60%;}
+.ta-7 {width: 70%;}
+.ta-8 {width: 80%;}
+.ta-9 {width: 90%;}
+.ta-10 {width: 100%;}
