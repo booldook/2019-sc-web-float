@@ -60,3 +60,7 @@ div.city    => 모든 div들 중에 .city라는 클래스를 가지고 있는 di
 	.contact-info {font-size: 18px;}
 	.contact-info > li {padding: 4px 0;}
 	.contact-info > li > i {width: 30px;}
+	.contact-mail > form > div {margin: 8px 0;}
+	.contact-mail .name, 
+	.contact-mail .email {float:left; width: 49%;}
+	.contact-mail .name {margin-right: 2%;}
