@@ -16,15 +16,15 @@ html, body {
 }
 
 /* 순서를 나타내는 리스트 */
-ol, ul, li, dl, dt, dd {
-	list-style: none;
-}
+ol, ul, li, dl, dt, dd {list-style: none;}
 
+/* 버튼, 폼, 이미지 */
+input, button {border: none; padding: 0; margin: 0;}
 img {
 	border: none;
 	margin: 0;
 	padding: 0;
-	vertical-align: bottom;
+	vertical-align: bottom;	/* 이미지 하단의 여백 없애기 */
 }
 
 /* 공통클래스 */
@@ -89,7 +89,7 @@ img {
 .ta-9 {width: 90%;}
 .ta-10 {width: 100%;}
 
-.bt {padding: 6px 16px; font-size: 16px; border: none; cursor: pointer;}
+.bt {padding: 6px 16px; font-size: 16px; cursor: pointer;}
 .bt-rnd {border-radius: 4px;}
 .bt-orange {background-color: orangered; border: 1px solid #b63405; 
 	color: #f8f8f8;}

@@ -64,3 +64,4 @@ div.city    => 모든 div들 중에 .city라는 클래스를 가지고 있는 di
 	.contact-mail .name, 
 	.contact-mail .email {float:left; width: 49%;}
 	.contact-mail .name {margin-right: 2%;}
+	.contact-mail .bt-send {padding: 10px 14px; background-color: #111; color: #f8f8f8;}
