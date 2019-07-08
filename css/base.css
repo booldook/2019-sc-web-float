@@ -3,7 +3,7 @@
 /* font-family: 'Noto Sans KR', sans-serif; */
 /* font-family: 'Nanum Pen Script', cursive; */
 
-html, body, div, p, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd {
+html, body, div, p, h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, form, input, select, button {
 	margin: 0; 
 	padding: 0;
 	box-sizing: border-box;
@@ -24,24 +24,23 @@ img {
 	border: none;
 	margin: 0;
 	padding: 0;
+	vertical-align: bottom;
 }
 
 /* 공통클래스 */
+.img {width: 100%;}
+
+.tc {text-align: center;}
+.tl {text-align: left;}
+.tr {text-align: right;}
+
+.fl {float: left;}
+.fr {float: right;}
 .clear:after {
 	display: block;
 	content: '';
 	clear:both;
 }
-.img {
-	width: 100%;
-}
-.img-wrap {
-	line-height: 0.9;
-}
-.tc {text-align: center;}
-.tl {text-align: left;}
-.tr {text-align: right;}
-
 
 /* Form 요소 */
 .ins {
@@ -69,6 +68,16 @@ img {
 .ins-10 {width: 100px;}
 .ins-11 {width: 110px;}
 .ins-12 {width: 120px;}
+.ins-1p {width: 10%;}
+.ins-2p {width: 20%;}
+.ins-3p {width: 30%;}
+.ins-4p {width: 40%;}
+.ins-5p {width: 50%;}
+.ins-6p {width: 60%;}
+.ins-7p {width: 70%;}
+.ins-8p {width: 80%;}
+.ins-9p {width: 90%;}
+.ins-0p {width: 100%;}
 
 .ta {padding: 16px; font-size: 16px; color: #444; 
 	border: 1px solid #ccc;}
