@@ -21,10 +21,11 @@ ol, ul, li, dl, dt, dd {list-style: none;}
 /* 버튼, 폼, 이미지 */
 input, button {border: none; padding: 0; margin: 0;}
 img {
+	/* 이미지를 inline-block에서 block으로 바꿔서 글씨 속성을 제거하고 div처럼 사용함 */
+	display: block;	
 	border: none;
 	margin: 0;
 	padding: 0;
-	vertical-align: bottom;	/* 이미지 하단의 여백 없애기 */
 }
 
 /* 공통클래스 */
