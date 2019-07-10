@@ -6,10 +6,12 @@ body {font-size: 14px; height: 5000px;}
 	font-size: 14px; padding: 20px 0;}
 
 /* tops */
-.tops {background-color: #111; color: #f8f8f8;}
+.tops {background-color: #111; color: #f8f8f8; 
+	position: fixed; z-index:9999; width: 100%; top: 0; left: 0;}
 .navi {float: left;}
 .search {float: right; padding: 12px 20px; cursor: pointer;}
 .search:hover {background-color: #f20;}
+.search .fa-bars {display: none;}
 .navi > div {float: left; padding: 12px 20px; cursor: pointer;}
 .navi > div:hover {background-color: #ddd; color: #111;}
 
@@ -80,3 +82,16 @@ div.city    => 모든 div들 중에 .city라는 클래스를 가지고 있는 di
 	.footers .brands {font-size: 24px;}
 	.footers .copyright {margin-top:20px;}
 
+
+/* 반응형 처리 */
+
+@media screen and (max-width: 640px) {
+	.search .fa-bars {display: inline-block;}
+	.search .fa-search {display: none;}
+	.search:hover {background-color: #ccc; color: #333;}
+	.navi-bt {display: none;}
+	.member > div {width: 100%;}
+	.city {width: 96%; margin: 2%;}
+	.city:nth-child(2) {margin: 2%;}
+	.contact-form > ul {width: 96%; margin: 2%;}
+}
