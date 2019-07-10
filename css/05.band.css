@@ -13,6 +13,13 @@ body {font-size: 14px; height: 5000px;}
 .navi > div {float: left; padding: 12px 20px; cursor: pointer;}
 .navi > div:hover {background-color: #ddd; color: #111;}
 
+/* bans */
+.bans {position: relative; color:white;}
+.bans > h2 {position: absolute; 
+	bottom: 10%; width: 100%; text-align: center;}
+.bans > h4 {position: absolute; 
+	bottom: 5%; width: 100%; text-align: center;}
+
 /* bands */
 .cont {text-align: justify; line-height: 1.8;}
 .member {margin-top: 50px;}
